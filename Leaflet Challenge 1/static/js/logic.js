@@ -67,7 +67,7 @@ function createMap(eqs) {
     let overlayMaps = {Earthquakes: eqs};
 
     // Create our map, giving it the streetmap and earthquakes layers to display on load.
-    let eqMap = L.map("map", {center: [34.1347, -84.0669], zoom: 3, layers: [baseLayer, eqs]});
+    let eqMap = L.map("map", {center: [36.2048, 138.2529], zoom: 3, layers: [baseLayer, eqs]});
 
     // Create a layer control and add it to the map.
     L.control.layers(baseMaps, overlayMaps).addTo(eqMap);
